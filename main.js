@@ -78,6 +78,7 @@ const onSubmit = (e) => {
   const data = prepareDataFromTable(table, values);
   const isValid = isDataValid(data);
   if (isValid) {
+    document.getElementById(`${tableId}-chart`).innerHTML = "";
     MicroModal.close("chartidy-modal");
     const tableHeaders = getTableHeaders(table);
     const labels = {
