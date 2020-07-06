@@ -1,0 +1,59 @@
+.visualize__btn {
+  float: right;
+}
+
+#chartidy-form {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  gap: 0 10px;
+}
+
+#chartidy-form label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#chartidy-form select {
+  font-size: 16px;
+  font-weight: 700;
+  background: #f8f8f8;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+#chartidy-form select option {
+  font-weight: normal;
+}
+
+#chartidy-error {
+  color: brown;
+  font-size: 12px;
+}
+
+.chartidy-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 10px;
+  margin: 10px 0;
+}
+
+.chartidy-bar {
+  fill: steelblue;
+}
+
+.chartidy-bar:hover {
+  fill: brown;
+}
+
+.chartidy-axis {
+  font-size: 10px;
+}
+
+.chartidy-axis path,
+.chartidy-axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

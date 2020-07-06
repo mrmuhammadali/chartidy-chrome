@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Chartidy",
+  "description": "This extension shows a bar chart with table",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "d3.min.js",
+        "micromodal.min.js",
+        "numeral.min.js",
+        "barchart.js",
+        "main.js"
+      ],
+      "css": ["micromodal.css", "styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": ["activeTab"]
+}
