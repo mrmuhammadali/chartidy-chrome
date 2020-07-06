@@ -4,7 +4,7 @@ A chrome extension which helps users to visualize table data in charts.
 
 ## Installation
 
-1. Download this repo as [zip](/archive/master.zip)
+1. Download this repo as [zip](https://github.com/mrmuhammadali/chartidy-chrome/archive/master.zip)
 2. Unzip it on your computer
 3. Turn on "Developer Mode" in chrome extension
 4. Click on "Load Unpacked" button
@@ -19,4 +19,4 @@ A chrome extension which helps users to visualize table data in charts.
 
 ## Limitations
 
-Only shows barchart for now, you can create [issue](/issues) for support of more charts.
+Only shows barchart for now, you can create [issue](https://github.com/mrmuhammadali/chartidy-chrome/issues) for support of more charts.
